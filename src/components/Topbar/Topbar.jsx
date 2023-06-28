@@ -1,19 +1,26 @@
 import { topbarNavigationItems } from "../../routes/const";
-import { Link } from "react-router-dom";
-import { Logo, NavItems, Navigation } from "./Topbar.styled";
+import {
+  Logo,
+  NavItemsContainer,
+  Navigation,
+  NavItem,
+  NavWrap,
+} from "./Topbar.styled";
 
 const Topbar = () => {
   return (
-    <Navigation>
-      <Logo>Logo</Logo>
-      <NavItems>
-        {topbarNavigationItems.map((item) => (
-          <Link key={item.title} to={item.route}>
-            {item.title}
-          </Link>
-        ))}
-      </NavItems>
-    </Navigation>
+    <NavWrap>
+      <Navigation>
+        <Logo>Logo</Logo>
+        <NavItemsContainer>
+          {topbarNavigationItems.map((item) => (
+            <NavItem key={item.title} to={item.route}>
+              {item.title}
+            </NavItem>
+          ))}
+        </NavItemsContainer>
+      </Navigation>
+    </NavWrap>
   );
 };
 
