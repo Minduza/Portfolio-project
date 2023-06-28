@@ -10,7 +10,6 @@ export const Navigation = styled.div`
   left: 5%;
 `;
 export const Logo = styled.div`
-  border: 2px solid ${({ theme }) => theme.background.primary};
   color: black;
   width: 50px;
   height: 50px;

@@ -11,7 +11,7 @@ const Topbar = () => {
   return (
     <NavWrap>
       <Navigation>
-        <Logo>Logo</Logo>
+        <Logo></Logo>
         <NavItemsContainer>
           {topbarNavigationItems.map((item) => (
             <NavItem key={item.title} to={item.route}>

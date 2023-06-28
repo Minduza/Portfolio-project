@@ -24,5 +24,7 @@ export const Subheading = styled.h3`
 `;
 
 export const HeadingSection = styled.div`
+  margin-top: 180px;
   width: 100%;
+  margin-bottom: 4rem;
 `;

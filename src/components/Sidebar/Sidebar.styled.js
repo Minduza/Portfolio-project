@@ -6,7 +6,7 @@ export const SidebarCard = styled.div`
   border-radius: 0 3px 3px 0;
   height: 240px;
   width: 60px;
-  position: absolute;
+  position: fixed;
   top: calc(50% - 120px);
   display: flex;
   flex-direction: column;

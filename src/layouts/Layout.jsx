@@ -1,3 +1,4 @@
+import Footer from "../components/Footer/Footer";
 import Sidebar from "../components/Sidebar/Sidebar";
 import Topbar from "../components/Topbar/Topbar";
 import { Wrapper } from "../components/Wrapper";
@@ -9,6 +10,7 @@ const Layout = ({ children }) => {
       <Topbar />
       <Sidebar />
       <Wrapper>{children}</Wrapper>
+      <Footer />
     </BgWrap>
   );
 };

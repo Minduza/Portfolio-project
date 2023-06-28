@@ -5,7 +5,6 @@ export const AboutContainer = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   gap: 2rem;
 `;
@@ -42,7 +41,7 @@ export const AboutConentMain = styled.div`
   width: 47%;
 `;
 export const AboutContentTitle = styled.h2``;
-export const AboutContentParagraph = styled.p`
+export const AboutContentParagraph = styled.div`
   line-height: 1.8rem;
   font-size: 1.1rem;
 `;
