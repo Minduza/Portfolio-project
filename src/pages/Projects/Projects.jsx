@@ -36,12 +36,12 @@ const Projects = () => {
         {projects.map((project) => (
           <Link
             key={project.id}
-            to={generatePath(PROJECT_ROUTE, { id: project.id })} // generatePath tik tada kai naudojam dinaminius routus
-            className="single-project"
+            to={generatePath(PROJECT_ROUTE, { id: project.id })}
           >
             <ProjectCard
+              alt={project.title}
               title={project.title}
-              img={project.imageUrl}
+              imgUrl={project.imageUrl}
               tools={project.tools}
             />
           </Link>

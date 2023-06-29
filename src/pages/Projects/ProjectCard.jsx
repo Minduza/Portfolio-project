@@ -5,14 +5,13 @@ import {
   ImageContainer,
   ProjectImage,
   ProjectTitle,
-  StyledSpan,
 } from "./ProjectCard.styled";
 
-const ProjectCard = ({ title, tools, img }) => {
+const ProjectCard = ({ title, tools, imgUrl, alt }) => {
   return (
     <CardWrap>
       <ImageContainer>
-        <ProjectImage src={img} alt={title} />
+        <ProjectImage src={imgUrl} alt={alt} />
       </ImageContainer>
       <ProjectTitle>{title}</ProjectTitle>
       <CardParagraph>
