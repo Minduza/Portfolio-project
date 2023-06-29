@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { Skill, Skills } from "../About/About.styled";
 import {
   CardParagraph,
@@ -23,6 +24,13 @@ const ProjectCard = ({ title, tools, imgUrl, alt }) => {
       </CardParagraph>
     </CardWrap>
   );
+};
+
+ProjectCard.propTypes = {
+  title: PropTypes.string.isRequired,
+  tittoolsle: PropTypes.string.isRequired,
+  imgUrl: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
 };
 
 export default ProjectCard;

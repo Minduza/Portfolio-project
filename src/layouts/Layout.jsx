@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import Footer from "../components/Footer/Footer";
 import Sidebar from "../components/Sidebar/Sidebar";
 import Topbar from "../components/Topbar/Topbar";
@@ -13,6 +14,10 @@ const Layout = ({ children }) => {
       <Footer />
     </BgWrap>
   );
+};
+
+Layout.propTypes = {
+  children: PropTypes.element.isRequired,
 };
 
 export default Layout;

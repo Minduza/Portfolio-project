@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { StyledButton } from "./Button.styled";
 
 const Button = ({ children, fontSize, onClick, type }) => {
@@ -6,6 +7,13 @@ const Button = ({ children, fontSize, onClick, type }) => {
       {children}
     </StyledButton>
   );
+};
+
+Button.propTypes = {
+  children: PropTypes.string.isRequired,
+  fontSize: PropTypes.string,
+  onClick: PropTypes.func,
+  type: PropTypes.string,
 };
 
 export default Button;
