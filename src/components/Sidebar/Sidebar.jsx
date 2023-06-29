@@ -11,7 +11,7 @@ const Sidebar = () => {
       </a>
 
       <a
-        href="www.linkedin.com/in/mindaugas-purvis-b967aa281"
+        href="https://www.linkedin.com/in/mindaugas-purvis-b967aa281"
         target="_blank"
         rel="noreferrer"
       >
