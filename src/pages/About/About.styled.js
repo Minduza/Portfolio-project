@@ -57,4 +57,5 @@ export const Skill = styled.div`
   margin: 5px;
   padding: 0.5rem 0.7rem;
   font-weight: 500;
+  height: fit-content;
 `;

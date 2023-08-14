@@ -15,7 +15,16 @@
       "description":"The TODO List app is a React.js project built for managing tasks and staying organized. With a clean and intuitive user interface, users can easily add and delete tasks. The app features CSS styling for a visually appealing and user-friendly experience. Stay productive and keep track of your tasks effortlessly with this handy TODO List app." ,
       "github": "https://github.com/Minduza/react_9paskaita_3uzd/tree/master",
       "imageUrl": "https://github.com/Minduza/react_9paskaita_3uzd/blob/master/screenshot/todo.JPG?raw=true"
-    }
+    },
+    { 
+    "id": 3, 
+    "title": "Forum", 
+    "tools": ["HTML","Javascript","React", "SCSS", "Express.js", "MongoDB" ], 
+    "description":"Forum website developed using React.js, Express.js and MongoDB. User can register as a new user, ask questions and get answers." ,
+    "github": "https://github.com/Minduza/Final-Full-Stack-with-Node.js-Project/tree/main",
+    "imageUrl": "https://github.com/Minduza/Final-Full-Stack-with-Node.js-Project/blob/main/client/public/forum/posts.JPG?raw=true"
+  }
+
     ]
 
   }
